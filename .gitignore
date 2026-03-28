@@ -1,0 +1,49 @@
+# Environment variables — NEVER commit your real token
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+streamlit.log
+/tmp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ngrok
+*.ngrok
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
